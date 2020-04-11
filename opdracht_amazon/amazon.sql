@@ -8,7 +8,9 @@ create table IF NOT EXISTS scores(
     month int,
     product_category varchar(200),
     star_rating int,
-    count int
+    count int,
+    count_per_month int
+
 )
 
 
